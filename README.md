@@ -7,7 +7,7 @@
 https://www.kizunamail.com/epds/
 
 ## ③DEMO
-（任意）デプロイしている場合はURLを記入
+janken_tplcopy.html
 
 ## ④工夫した点・こだわった点
 - webフォントで「Noto Sans JP」を使用しました
