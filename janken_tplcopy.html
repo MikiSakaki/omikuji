@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/samplecopy.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+    </style>
+    <title>
+        産後うつ診断
+    </title>
+</head>
+
+<body>
+
+    
+    <header>
+        <p class="header_ue">wellfami</p>
+        <p class="header_shita">産後うつ診断</p>
+
+    </header>
+
+    <main>
+
+        <div class="main_img">
+            <img src="./img/main.jpg" alt="">
+        </div>
+
+    
+<div class="setsumei">
+    <p>
+        最近のあなたの気分をチェックしてみましょう。 
+    </p> 
+    <p>
+        今日だけではなく、過去7日間にあなたが感じたことに最も近い答えにチェックをつけて下さい。 
+    </p>
+</div>
+
+<!-- ここから診断です -->
+
+<div class="form_back">
+
+
+        <form id="diagnosisForm">
+
+        <div class="card">
+        <h3>
+            1.笑うことができたし、物事の面白い面もわかった。
+        </h3>
+        <ul><label><input type="radio" name="check1"　 value="0">いつもと同様にできた。</label></ul>
+        <ul><label><input type="radio" name="check1" value="1">あまりできなかった。</label></ul>
+        <ul><label><input type="radio" name="check1" value="2">明らかにできなかった。</label></ul>
+        <ul><label><input type="radio" name="check1" value="3">全くできなかった。</label></ul>
+        </div>
+
+        <div class="card">
+        <h3>
+            2.物事を楽しみにして待った。
+        </h3>
+        <ul><label><input type="radio" name="check2" value="0">いつもと同様にできた。</label></ul>
+        <ul><label><input type="radio" name="check2" value="1">あまりできなかった。</label></ul>
+        <ul><label><input type="radio" name="check2" value="2">明らかにできなかった。</label></ul>
+        <ul><label><input type="radio" name="check2" value="3">全くできなかった。</label></ul>
+        </div>
+
+        <div class="card">
+        <h3>
+            3.物事がうまくいかなった時、自分を不必要に責めた。
+        </h3>
+        <ul><label><input type="radio" name="check3" value="3">はい、たいていそうだった。</label></ul>
+        <ul><label><input type="radio" name="check3" value="2">はい、時々そうだった。</label></ul>
+        <ul><label><input type="radio" name="check3" value="1">いいえ、あまり度々ではなかった。</label></ul>
+        <ul><label><input type="radio" name="check3" value="0">いいえ、全くそうではなかった。</label></ul>
+        </div>
+
+        <div class="card">
+        <h3>
+            4.はっきりとした理由もないのに不安になったり、心配したりした。
+        </h3>
+        <ul><label><input type="radio" name="check4" value="0">いいえ、そうではなかった。</label></ul>
+        <ul><label><input type="radio" name="check4" value="1">ほとんどそうではなかった。</label></ul>
+        <ul><label><input type="radio" name="check4" value="2">はい、時々あった。</label></ul>
+        <ul><label><input type="radio" name="check4" value="3">はい、しょっちゅうあった。</label></ul>
+        </div>
+        
+        <div class="card">
+        <h3>
+            5.はっきりとした理由もないのに恐怖に襲われた。
+        </h3>
+        <ul><label><input type="radio" name="check5" value="0">いいえ、そうではなかった。</label></ul>
+        <ul><label><input type="radio" name="check5" value="1">ほとんどそうではなかった。</label></ul>
+        <ul><label><input type="radio" name="check5" value="2">はい、時々あった。</label></ul>
+        <ul><label><input type="radio" name="check5" value="3">はい、しょっちゅうあった。</label></ul>
+        </div>
+
+        <div class="card">
+        <h3>
+            6.することがたくさんあって大変だった。
+        </h3>
+        <ul><label><input type="radio" name="check6" value="3">はい、たいてい対処できなかった。</label></ul>
+        <ul><label><input type="radio" name="check6" value="2">はい、いつものようにうまく対処できなかった。</label></ul>
+        <ul><label><input type="radio" name="check6" value="1">いいえ、たいていうまく対処した。</label></ul>
+        <ul><label><input type="radio" name="check6" value="0">いいえ、普段通りに対処した。</label></ul>
+        </div>
+
+        <div class="card">
+        <h3>
+            7.不幸せな気分なので、眠りにくかった。
+        </h3>
+        <ul><label><input type="radio" name="check7" value="3">はい、ほとんどいつもそうだった。</label></ul>
+        <ul><label><input type="radio" name="check7" value="2">はい、時々そうだった。</label></ul>
+        <ul><label><input type="radio" name="check7" value="1">いいえ、あまり度々ではなかった。</label></ul>
+        <ul><label><input type="radio" name="check7" value="0">いいえ、全くそうではなかった。</label></ul>
+       </div>
+
+        <div class="card">
+        <h3>
+            8.悲しくなったり、惨めになったりした。
+        </h3>
+        <ul><label><input type="radio" name="check8" value="3">はい、たいていそうだった。</label></ul>
+        <ul><label><input type="radio" name="check8" value="2">はい、かなりしばしばそうだった。</label></ul>
+        <ul><label><input type="radio" name="check8" value="1">いいえ、あまり度々ではなかった。</label></ul>
+        <ul><label><input type="radio" name="check8" value="0">いいえ、全くそうではなかった。</label></ul>
+        </div>
+        
+        <div class="card">
+        <h3>
+            9.不幸せな気分だったので、泣いていた。
+        </h3>
+        <ul><label><input type="radio" name="check9" value="3">はい、たいていそうだった。</label></ul>
+        <ul><label><input type="radio" name="check9" value="2">はい、かなりしばしばそうだった。</label></ul>
+        <ul><label><input type="radio" name="check9" value="1">ほんの時々あった。</label></ul>
+        <ul><label><input type="radio" name="check9" value="0">いいえ、全くそうではなかった。</label></ul>
+        </div>
+       
+        <div class="card">
+        <h3>
+            10.自分自身を傷つけるという考えが浮かんできた。
+        </h3>
+        <ul><label><input type="radio" name="check10" value="3">はい、かなりしばしばそうだった。</label></ul>
+        <ul><label><input type="radio" name="check10" value="2">時々そうだった。</label></ul>
+        <ul><label><input type="radio" name="check10" value="1">めったになかった。</label></ul>
+        <ul><label><input type="radio" name="check10" value="0">全くなかった。</label></ul>
+       </div>
+
+       <div class="btn">
+        <button  type="button" onclick="validateAndCalculateScore()">診断する</button>
+       </div>
+
+    </form>
+
+</div> 
+<!-- フォーム背景ここまで -->
+
+
+
+    <div id="totalScore"></div>
+    <div id="result"></div>
+
+
+    <script>
+     function validateAndCalculateScore() {
+                // ラジオボタンのチェック漏れを確認
+                const allRadiosChecked = validateRadios();
+                if (!allRadiosChecked) {
+                    alert("全ての質問に回答してください。");
+                    return;
+                }
+
+            // 各質問ごとの点数を取得
+            const score1 = getRadioValue("check1");
+            const score2 = getRadioValue("check2");
+            const score3 = getRadioValue("check3");
+            const score4 = getRadioValue("check4");
+            const score5 = getRadioValue("check5");
+            const score6 = getRadioValue("check6");
+            const score7 = getRadioValue("check7");
+            const score8 = getRadioValue("check8");
+            const score9 = getRadioValue("check9");
+            const score10 = getRadioValue("check10");
+
+            // 合計点を計算
+            const totalScore = score1 + score2 + score3 + score4 + score5 + score6 + score7 + score8 + score9 + score10;
+
+            // 判定を出力
+            let resultMessage;
+            if (totalScore >= 9) {
+                // 産後うつの疑いが高い場合のメッセージ
+                resultMessage = 
+                "日本では30点満点中9点以上であれば産後うつの疑いが高いといえます。また、それ以外の病気の可能性もあるので、できるだけ早めに専門医に診てもらいましょう。";
+            } else {
+                // 産後うつの疑いが低い場合のメッセージ
+                resultMessage = "日本では30点満点中9点以上であれば産後うつの疑いが高いといえます。判定結果が9点未満の場合も、一人で抱え込まずリフレッシュを忘れず過ごしてくださいね。";
+            }
+
+
+
+// 合計点
+document.getElementById("totalScore").innerHTML = "<h2>合計点</h2><p>" + totalScore + " 点</p>";
+
+// 結果
+document.getElementById("result").innerHTML = "<h2>診断結果</h2><p>" + resultMessage + "</p>";
+}
+
+
+
+//アラート
+function validateRadios() {
+                // 各質問のラジオボタンが選択されているか確認
+                const radioNames = ["check1", "check2", "check3", "check4", "check5", "check6", "check7", "check8", "check9", "check10"];
+                for (const name of radioNames) {
+                    const radioButtons = document.getElementsByName(name);
+                    let isChecked = false;
+                    for (const radio of radioButtons) {
+                        if (radio.checked) {
+                            isChecked = true;
+                            break;
+                        }
+                    }
+                    if (!isChecked) {
+                        return false; // チェック漏れがあればfalseを返す
+                    }
+                }
+                return true; // 全てのラジオボタンが選択されていればtrueを返す
+            }
+
+        function getRadioValue(name) {
+            const selectedOption = document.querySelector('input[name="' + name + '"]:checked');
+            return selectedOption ? parseInt(selectedOption.value) : 0;
+        }
+    </script>
+            </body>
+            </html>
+
+
+       

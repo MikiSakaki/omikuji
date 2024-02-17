@@ -1,0 +1,130 @@
+
+  
+body{
+    margin:0;
+    padding:0;
+    background-color: #ecece4; 
+    color:     #353434
+}
+
+.header_ue {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.header_shita {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+
+.main_img {
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px; /* 調整可能な値 */
+    overflow: hidden; /* 画像が角丸の範囲をはみ出さないようにするため */
+}
+
+.main_img img {
+    border-radius: 15px; /* 調整可能な値 */
+    max-width: 100%; /* 画像が親要素をはみ出さないようにするため */
+    height: auto; /* アスペクト比を維持しつつ幅を100%に */
+}
+
+.setsumei{
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+/* ここから診断です */
+
+.form_back {
+    background-color:#d8ebda ;
+    border-radius: 15px; /* 調整可能な値 */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 900px;
+    padding: 30px;
+}
+
+
+
+.card {
+    background-color: #ecf4f4;
+    border-radius: 15px; /* 調整可能な値 */
+    justify-content: center;
+    margin-top: 10px ;
+    width: 600px;
+    padding: 30px;
+}
+
+.btn button {
+    background-color: #84948c;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button:hover {
+    opacity: 0.5 ;
+}
+
+#totalScore {
+    background-color: #e9daed;
+    border-radius: 15px; /* 調整可能な値 */
+    text-align: center;
+    margin-top:30px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 30px;
+}
+
+#result{
+    background-color: #e9daed;
+    border-radius: 15px; /* 調整可能な値 */
+    text-align: center;
+    margin-top:30px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 30px;
+}
+
+
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+/* li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+} */
